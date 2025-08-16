@@ -16,7 +16,7 @@ const server = http.createServer(app);
 // Socket.IO for real-time updates
 const io = new Server(server, {
   cors: {
-    origin: 'http://localhost:5173', 
+    origin: 'https://books-library-opal.vercel.app/', 
     methods: ['GET', 'POST', 'PATCH'],
     credentials: true
   }
@@ -31,7 +31,7 @@ app.use(cookieParser());
 
 // CORS - allow credentials and the frontend origin
 app.use(cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://books-library-opal.vercel.app/',
   credentials: true
 }));
 
