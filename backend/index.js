@@ -14,6 +14,7 @@ const app = express();
 const server = http.createServer(app);
 
 // Socket.IO for real-time updates
+// "http://localhost:5173" ||
 const io = new Server(server, {
   cors: {
     origin: 'https://books-library-opal.vercel.app', 

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useApp } from '../context/AppContext';
 
+
 export default function Navbar() {
   const { user, logout } = useApp();
   const navigate = useNavigate();
