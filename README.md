@@ -2,6 +2,7 @@
 A full-stack web application where users can discover books, add them to their personal library, and track their reading status and ratings.
 
 <img width="1907" height="873" alt="Screenshot 2026-03-25 122508" src="https://github.com/user-attachments/assets/74b00d6c-495c-4539-af24-37448d617a5d" />
+<img width="1897" height="865" alt="image" src="https://github.com/user-attachments/assets/8235be4c-19f3-4e60-9153-95b4ed4bd4e5" />
 
 ## Features
 - User registration and authentication
